@@ -1,10 +1,11 @@
-# PythonCalculation
-Python code for calculation
+# PythonCalculation  
+Python code for calculation  
 
-## GiniCorrelationCoefficient.py
+## GiniCorrelationCoefficient.py  
 Calculate Gini Correlation Coefficient (GCC). This is one sped up version in Python of GCC from rsgcc Package  
-(https://cran.r-project.org/web/packages/rsgcc/index.html). The running speed is improved by  
-1) parallelization. and 2) pre-calculation of some statics per gene to avoid repetitive calculation in loops.
+(https://cran.r-project.org/web/packages/rsgcc/index.html). The running speed is improved by   
+1) parallelization. and    
+2) pre-calculation of some statics per gene to avoid repetitive calculation in loops.   
 
 numpy, multipleprocessing, pandas modules are imported in this code.  
 
